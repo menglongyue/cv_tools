@@ -26,3 +26,11 @@ Rotated Object Detection:
   | ![00448](https://typora-images-1302473945.cos.ap-chengdu.myqcloud.com/images/202211181527139.jpg) | ![00476](https://typora-images-1302473945.cos.ap-chengdu.myqcloud.com/images/202211181527689.jpg) |
   
   
+
+
+
+Thanks for:
+
+- https://github.com/jahongir7174/YOLO2VOC.git
+- https://github.com/AndrewCarterUK/pascal-voc-writer.git
+- https://github.com/jbwang1997/BboxToolkit.git
