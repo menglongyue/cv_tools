@@ -11,4 +11,5 @@ writer.save('path/to/img.xml')
 
 label_dir = '/Users/huangquanjin/Data/oriented_car_detection/val/vallabel'
 image_dir = '/Users/huangquanjin/Data/oriented_car_detection/val/valimg'
-names = ['car', 'truck', 'bus', 'van', 'freight car']
+save_dir = '/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel'
+names = ['car', 'truck', 'bus', 'van', 'feright_car', 'feright car']

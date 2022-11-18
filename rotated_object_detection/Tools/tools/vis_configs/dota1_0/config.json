@@ -1,0 +1,25 @@
+{
+    "load_type": "dota",
+    "img_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/valimg",
+    "ann_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel",
+    "classes": "car|truck|bus|van|feright_car",
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "load_nproc": 10,
+
+    "skip_empty": false,
+    "random_vis": false,
+    "ids": null,
+    "show_off": true,
+    "save_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/vis_yolo",
+    "vis_nproc": 10,
+
+    "shown_btype": null,
+    "shown_names": "./vis_configs/dota1_0/visdrone_names.txt",
+    "score_thr": 0.2,
+    "colors": "#FF8000",
+    "thickness": 3.0,
+    "text_off": false,
+    "font_size": 10,
+    "wait_time": 0
+}
