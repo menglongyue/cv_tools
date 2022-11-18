@@ -1,5 +1,5 @@
 # cv_tools
-this repository contains data processing tools in CV, including object detection, oriented object detection, segmentation, change detection, gan, video classification etc.   
+This repository contains data processing tools in CV, including object detection, oriented object detection, segmentation, change detection, gan, video classification etc.   
 
 Object Detection:
 
