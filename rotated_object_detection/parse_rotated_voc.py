@@ -3,11 +3,8 @@ import argparse
 import multiprocessing
 import os
 import xml.etree.ElementTree
-
 from PIL import Image
-
 import config
-
 
 
 def voc2yolo(xml_file):
@@ -68,7 +65,6 @@ if __name__ == '__main__':
 
     print('VOC to YOLO')
     xml_files = [name for name in os.listdir(config.label_dir) if name.endswith('.xml')]
-
     with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
         pool.map(voc2yolo, xml_files)
     pool.join()

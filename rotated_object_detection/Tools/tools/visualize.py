@@ -17,8 +17,8 @@ def add_parser(parser):
 
     # arguments for loading data
     parser.add_argument('--load_type', type=str, help='dataset and save form')
-    parser.add_argument('--img_dir', type=str, default='/Users/huangquanjin/Data/oriented_car_detection/val/valimg', help='path to images')
-    parser.add_argument('--ann_dir', type=str, default='/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel',
+    parser.add_argument('--img_dir', type=str, default='/Users/huangquanjin/Data/oriented_car_detection/val/val_img_process', help='path to images')
+    parser.add_argument('--ann_dir', type=str, default='/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel_process',
                         help='path to annotations')
     parser.add_argument('--classes', type=str, default='',
                         help='the classes to load, a filepath or classes joined by `|`')
@@ -142,6 +142,7 @@ def main():
         ann_dir=args.ann_dir,
         classes=args.classes,
         nproc=args.load_nproc)
+    print(contents)
     if args.prior_annfile is not None:
         prior, _ = bt.load_pkl(args.prior_annfile, classes=classes)
         bt.merge_prior_contents(contents, prior, merge_type=args.merge_type)

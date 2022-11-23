@@ -1,7 +1,7 @@
 {
     "load_type": "dota",
-    "img_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/valimg",
-    "ann_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel",
+    "img_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/val_img_process",
+    "ann_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/valyololabel_process",
     "classes": "car|truck|bus|van|feright_car",
     "prior_annfile": null,
     "merge_type": "addition",
@@ -11,7 +11,7 @@
     "random_vis": false,
     "ids": null,
     "show_off": true,
-    "save_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/vis_yolo",
+    "save_dir": "/Users/huangquanjin/Data/oriented_car_detection/val/vis_process_label",
     "vis_nproc": 10,
 
     "shown_btype": null,
